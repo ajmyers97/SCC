@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  XYGraph.cpp
+d:\cis021 projects\cis021_s2019_lab8a allen myers\cis021_s2019_lab8a\cis021_s2019_lab8a\xygraph.cpp(126): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab8a allen myers\cis021_s2019_lab8a\cis021_s2019_lab8a\xygraph.cpp(127): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab8a allen myers\cis021_s2019_lab8a\cis021_s2019_lab8a\xygraph.cpp(185): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab8a allen myers\cis021_s2019_lab8a\cis021_s2019_lab8a\xygraph.cpp(186): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab8a allen myers\cis021_s2019_lab8a\cis021_s2019_lab8a\xygraph.cpp(188): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab8a allen myers\cis021_s2019_lab8a\cis021_s2019_lab8a\xygraph.cpp(189): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  CIS021_S2019_Lab8a.cpp
+  Generating Code...
+  CIS021_S2019_Lab8a.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab8a Allen Myers\CIS021_S2019_Lab8a\Debug\CIS021_S2019_Lab8a.exe
+  CIS021_S2019_Lab8a.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab8a Allen Myers\CIS021_S2019_Lab8a\Debug\CIS021_S2019_Lab8a.pdb (Full PDB)

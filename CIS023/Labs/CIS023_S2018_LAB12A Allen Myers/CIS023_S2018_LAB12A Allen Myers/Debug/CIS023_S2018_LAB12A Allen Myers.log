@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  CIS023_S2018_LAB12A Allen Myers.cpp
+\\mac\icloud\solano community college coursework\previous terms\spring 2018\cis023\programming labs\cis023\labs\cis023_s2018_lab12a allen myers\cis023_s2018_lab12a allen myers\cis023_s2018_lab12a allen myers.cpp(211): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  CIS023_S2018_LAB12A Allen Myers.vcxproj -> \\Mac\iCloud\Solano Community College Coursework\Previous Terms\Spring 2018\CIS023\Programming Labs\CIS023\Labs\CIS023_S2018_LAB12A Allen Myers\Debug\CIS023_S2018_LAB12A Allen Myers.exe
+  CIS023_S2018_LAB12A Allen Myers.vcxproj -> \\Mac\iCloud\Solano Community College Coursework\Previous Terms\Spring 2018\CIS023\Programming Labs\CIS023\Labs\CIS023_S2018_LAB12A Allen Myers\Debug\CIS023_S2018_LAB12A Allen Myers.pdb (Full PDB)

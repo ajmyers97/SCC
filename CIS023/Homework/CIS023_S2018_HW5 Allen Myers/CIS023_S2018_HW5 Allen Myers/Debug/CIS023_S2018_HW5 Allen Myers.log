@@ -1,0 +1,5 @@
+﻿  VehicleClass.cpp
+f:\cis023\cis023_s2018_hw5 allen myers\cis023_s2018_hw5 allen myers\vehicleclass.cpp(46): warning C4101: 'pRet': unreferenced local variable
+f:\cis023\cis023_s2018_hw5 allen myers\cis023_s2018_hw5 allen myers\vehicleclass.cpp(76): warning C4715: 'VehicleClass::SetVehicleTax': not all control paths return a value
+  CIS023_S2018_HW5 Allen Myers.vcxproj -> F:\CIS023\CIS023_S2018_HW5 Allen Myers\Debug\CIS023_S2018_HW5 Allen Myers.exe
+  CIS023_S2018_HW5 Allen Myers.vcxproj -> F:\CIS023\CIS023_S2018_HW5 Allen Myers\Debug\CIS023_S2018_HW5 Allen Myers.pdb (Full PDB)

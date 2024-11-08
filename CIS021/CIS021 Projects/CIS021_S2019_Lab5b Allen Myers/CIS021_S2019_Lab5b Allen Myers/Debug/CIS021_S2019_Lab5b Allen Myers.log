@@ -1,0 +1,15 @@
+﻿  CIS021_S2019_Lab5b Allen Myers.cpp
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(29): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(29): note: consider using '%lld' in the format string
+  e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(29): note: consider using '%I64d' in the format string
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(33): warning C4477: 'printf' : format string '%03d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(33): note: consider using '%lld' in the format string
+  e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(33): note: consider using '%I64d' in the format string
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(53): warning C4018: '<': signed/unsigned mismatch
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(93): warning C4307: '*': integral constant overflow
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(121): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(122): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(123): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+e:\cis021 projects\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers\cis021_s2019_lab5b allen myers.cpp(124): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  CIS021_S2019_Lab5b Allen Myers.vcxproj -> E:\CIS021 Projects\CIS021_S2019_Lab5b Allen Myers\Debug\CIS021_S2019_Lab5b Allen Myers.exe
+  CIS021_S2019_Lab5b Allen Myers.vcxproj -> E:\CIS021 Projects\CIS021_S2019_Lab5b Allen Myers\Debug\CIS021_S2019_Lab5b Allen Myers.pdb (Full PDB)

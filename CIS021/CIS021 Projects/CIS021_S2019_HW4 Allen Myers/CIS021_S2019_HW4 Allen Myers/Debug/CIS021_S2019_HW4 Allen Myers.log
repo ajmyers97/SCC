@@ -1,0 +1,4 @@
+﻿  CIS021_S2019_HW4 Allen Myers.cpp
+d:\cis021 projects\cis021_s2019_hw4 allen myers\cis021_s2019_hw4 allen myers\cis021_s2019_hw4 allen myers.cpp(35): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::string'
+  CIS021_S2019_HW4 Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_HW4 Allen Myers\Debug\CIS021_S2019_HW4 Allen Myers.exe
+  CIS021_S2019_HW4 Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_HW4 Allen Myers\Debug\CIS021_S2019_HW4 Allen Myers.pdb (Full PDB)

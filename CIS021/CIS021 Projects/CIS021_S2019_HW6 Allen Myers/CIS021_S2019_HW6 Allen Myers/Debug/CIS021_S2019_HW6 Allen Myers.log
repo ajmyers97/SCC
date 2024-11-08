@@ -1,0 +1,5 @@
+﻿  CIS021_S2019_HW6 Allen Myers.cpp
+d:\cis021 projects\cis021_s2019_hw6 allen myers\cis021_s2019_hw6 allen myers\cis021_s2019_hw6 allen myers.cpp(21): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_hw6 allen myers\cis021_s2019_hw6 allen myers\cis021_s2019_hw6 allen myers.cpp(39): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  CIS021_S2019_HW6 Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_HW6 Allen Myers\Debug\CIS021_S2019_HW6 Allen Myers.exe
+  CIS021_S2019_HW6 Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_HW6 Allen Myers\Debug\CIS021_S2019_HW6 Allen Myers.pdb (Full PDB)

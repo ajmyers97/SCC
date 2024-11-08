@@ -1,0 +1,174 @@
+#define LAST_NAME  0
+#define FIRST_NAME  1
+#define CITY  2
+#define AGE  3
+#define LICENSE  4
+
+
+
+HWND hWnd_cboLName;								// output fields
+HWND hWnd_cboFName;								// .
+HWND hWnd_cboCity;								// .
+HWND hWnd_cboAge;								// .
+HWND hWnd_cboLicense;							// .
+
+NodeClass		*firstNode = nullptr,			// objects for linked list
+				*lastNode = nullptr,
+				*newNode = nullptr,
+				*currentNode = nullptr;
+
+
+
+
+
+
+
+
+void LoadFile();								// load file into linked list
+void Display(NodeClass*);						// display current node on main window
+void Find(TCHAR*, int);							// find a node based on a search string
+
+
+
+
+
+
+CW_USEDEFAULT, 0, 375, 350, nullptr, nullptr, hInstance, nullptr);
+
+
+
+
+
+
+
+
+	case WM_CREATE:
+	{
+		// grey background
+		CreateWindow(TEXT("STATIC"), TEXT(""),
+			WS_VISIBLE | WS_CHILD, 0, 0, 400, 300, hWnd, NULL, NULL, NULL);
+
+		// labels
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Last Name:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 20, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("First Name:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 50, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("City:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 80, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Age:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 110, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("License #:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 140, 340, 20, hWnd, NULL, NULL, NULL);
+
+		// combo boxes
+		hWnd_cboLName = CreateWindow(TEXT("COMBOBOX"),
+			TEXT(""),
+			CBS_DROPDOWN | CBS_HASSTRINGS |
+			//	CBS_SORT |										// items are soted in the listbox
+			WS_CHILD | WS_OVERLAPPED | WS_VISIBLE | WS_VSCROLL,
+			100, 20, 240, 200, hWnd, NULL, NULL, NULL);
+
+		hWnd_cboFName = CreateWindow(TEXT("COMBOBOX"),
+			TEXT(""),
+			CBS_DROPDOWN | CBS_HASSTRINGS |
+			CBS_SORT |										// items are soted in the listbox
+			WS_CHILD | WS_OVERLAPPED | WS_VISIBLE | WS_VSCROLL,
+			100, 50, 240, 200, hWnd, NULL, NULL, NULL);
+
+		hWnd_cboCity = CreateWindow(TEXT("COMBOBOX"),
+			TEXT(""),
+			CBS_DROPDOWN | CBS_HASSTRINGS |
+			CBS_SORT |										// items are soted in the listbox
+			WS_CHILD | WS_OVERLAPPED | WS_VISIBLE | WS_VSCROLL,
+			100, 80, 240, 200, hWnd, NULL, NULL, NULL);
+
+		hWnd_cboAge = CreateWindow(TEXT("COMBOBOX"),
+			TEXT(""),
+			CBS_DROPDOWN | CBS_HASSTRINGS |
+			CBS_SORT |										// items are soted in the listbox
+			WS_CHILD | WS_OVERLAPPED | WS_VISIBLE | WS_VSCROLL,
+			100, 110, 240, 200, hWnd, NULL, NULL, NULL);
+
+		hWnd_cboLicense = CreateWindow(TEXT("COMBOBOX"),
+			TEXT(""),
+			CBS_DROPDOWN | CBS_HASSTRINGS |
+			CBS_SORT |										// items are soted in the listbox
+			WS_CHILD | WS_OVERLAPPED | WS_VISIBLE | WS_VSCROLL,
+			100, 140, 240, 200, hWnd, NULL, NULL, NULL);
+
+		// load file into linked list
+		LoadFile();
+
+	}
+	break;
+
+
+
+
+
+// load the data file and create the linked list
+void LoadFile()
+{
+	string strLName = "";								// temps to hold file data
+	string strFName = "";
+	string strCity = "";
+	string strAge = "";
+	string strLic = "";
+
+	ifstream fInput;									// file pointer
+
+	try
+	{
+		fInput.open("CIS023_S2018_Lab8d_Data.txt");		// open file
+
+		if (!fInput)									// if file did not open
+			throw 1;
+
+		while (fInput.good())
+		{
+
+			fInput >> strLName							// Read the file
+				>> strFName
+				>> strCity
+				>> strAge
+				>> strLic;
+
+		}
+
+		fInput.close();									// ALWAYS remember to close the file
+
+
+	}
+	catch (int)
+	{
+
+		MessageBox(NULL,
+			TEXT("Failed to load file"),
+			TEXT("File Error"),
+			MB_ICONERROR);
+
+
+	}
+}
+
+
+// display contents of node on window
+void Display(NodeClass * Node)
+{}
+
+
+// find and display node
+void Find(TCHAR* szInput, int iItem)
+{}
+
+

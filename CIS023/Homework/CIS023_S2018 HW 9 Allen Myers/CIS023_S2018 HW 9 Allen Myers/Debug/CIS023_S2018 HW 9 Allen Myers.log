@@ -1,0 +1,5 @@
+﻿  CIS023_S2018 HW 9 Allen Myers.cpp
+c:\users\allen myers\desktop\cis023_s2018 hw 9 allen myers\cis023_s2018 hw 9 allen myers\cis023_s2018 hw 9 allen myers.cpp(154): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+c:\users\allen myers\desktop\cis023_s2018 hw 9 allen myers\cis023_s2018 hw 9 allen myers\cis023_s2018 hw 9 allen myers.cpp(162): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+  CIS023_S2018 HW 9 Allen Myers.vcxproj -> C:\Users\Allen Myers\Desktop\CIS023_S2018 HW 9 Allen Myers\Debug\CIS023_S2018 HW 9 Allen Myers.exe
+  CIS023_S2018 HW 9 Allen Myers.vcxproj -> C:\Users\Allen Myers\Desktop\CIS023_S2018 HW 9 Allen Myers\Debug\CIS023_S2018 HW 9 Allen Myers.pdb (Full PDB)

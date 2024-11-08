@@ -1,0 +1,50 @@
+Alabama	Montgomery	Yellowhammer State	Yellowhammer	Camellia	Longleaf pine
+Alaska	Juneau	Last Frontier	Willow Ptarmigan	Forget Me Not	Sitka spruce
+Arizona	Phoenix	Grand Canyon State	Cactus Wren	Saguaro cactus blossom	Palo Verde
+Arkansas	Little Rock	Natural State	Mockingbird	Apple blossom	Pine tree
+California	Sacramento	Golden State	California Valley Quail	Golden poppy	California redwood
+Colorado	Denver	Centennial State	Lark Bunting	Rocky Mountain columbine	Colorado blue spruce
+Connecticut	Hartford	Constitution State	Robin	Mountain laurel	White oak
+Delaware	Dover	First State	Blue Hen Chicken	Peach blossom	American holly
+Florida	Tallahassee	Sunshine State	Mockingbird	Orange blossom	Sabal palm
+Georgia	Atlanta	Peach State	Brown Thrasher	Cherokee rose	Live oak
+Hawaii	Honolulu	Aloha State	Nene	Hibiscus	Kukui
+Idaho	Boise	Gem State	Mountain Bluebird	Syringa	Western white pine
+Illinois	Springfield	Prairie State	Cardinal	Violet	White oak
+Indiana	Indianapolis	Hoosier State	Cardinal	Peony	Tulip tree
+Iowa	Des Moines	Hawkeye State	Eastern Goldfinch	Wild rose	Bur oak
+Kansas	Topeka	Sunflower State	Western Meadowlark	Sunflower	Cottonwood
+Kentucky	Frankfort	Bluegrass State	Cardinal	Goldenrod	Tulip tree
+Louisiana	Baton Rouge	Pelican State	Eastern Brown Pelican	Magnolia	Bald cypress
+Maine	Augusta	Pine Tree State	Chickadee	White pine cone and tassel	White pine
+Maryland	Annapolis	Old Line State	Baltimore Oriole	Black-eyed susan	White oak
+Massachusetts	Boston	Bay State	Chickadee	Mayflower	American elm
+Michigan	Lansing	Great Lakes State	American Robin	Apple blossom	White pine
+Minnesota	St. Paul	North Star State	Common Loon	Lady slipper	Norway pine
+Mississippi	Jackson	Magnolia State	Mockingbird	Bloom of magnolia	Magnolia
+Missouri	Jefferson City	Show Me State	Bluebird	Hawthorn	Flowering dogwood
+Montana	Helena	Treasure State	Western Meadowlark	Bitterroot	Ponderosa pine
+Nebraska	Lincoln	Cornhusker State	Western Meadowlark	Goldenrod	Cottonwood
+Nevada	Carson City	Silver State	Mountain Bluebird	Sagebrush	Bristlecone pine
+New Hampshire	Concord	Granite State	Purple Finch	Purple lilac	White birch
+New Jersey	Trenton	Garden State	Eastern Goldfinch	Purple violet	Red oak
+New Mexico	Santa Fe	Land of Enchantment	Roadrunner	Yucca	Pinon pine
+New York	Albany	Empire State	Bluebird	Rose	Sugar maple
+North Carolina	Raleigh	Tar Heel State	Cardinal	Dogwood	Pine
+North Dakota	Bismarck	Peace Garden State	Western Meadowlark	Wild prairie rose	American elm
+Ohio	Columbus	Buckeye State	Cardinal	Scarlet carnation	Buckeye
+Oklahoma	Oklahoma City	Sooner State	Scissor-tailed Flycatcher	Mistletoe	Redbud
+Oregon	Salem	Beaver State	Western Meadowlark	Oregon grape	Douglas fir
+Pennsylvania	Harrisburg	Keystone State	Ruffed Grouse	Mountain laurel	Hemlock
+Rhode Island	Providence	Ocean State	Rhode Island Red	Violet	Red maple
+South Carolina	Columbia	Palmetto State	Great Carolina Wren	Carolina yellow jessamine	Sabal palmetto
+South Dakota	Pierre	Mount Rushmore State	Ring-necked Pheasant	American pasqueflower	Black Hills spruce
+Tennessee	Nashville	Volunteer State	Mockingbird	Iris	Tulip poplar
+Texas	Austin	Lone Star State	Mockingbird	Bluebonnet	Pecan
+Utah	Salt Lake City	Beehive State	Common American Gull	Sego lily	Quaking aspen
+Vermont	Montpelier	Green Mountain State	Hermit Thrush	Red clover	Sugar maple
+Virginia	Richmond	Old Dominion State	Cardinal	American dogwood	American dogwood
+Washington	Olympia	Evergreen State	Willow Goldfinch	Coast rhododendron	Western hemlock
+West Virginia	Charleston	Mountain State	Cardinal	Rhododendron	Sugar maple
+Wisconsin	Madison	Badger State	Robin	Wood violet	Sugar maple
+Wyoming	Cheyenne	Equality or Cowboy State	Western Meadowlark	Indian paintbrush	Plains cottonwood

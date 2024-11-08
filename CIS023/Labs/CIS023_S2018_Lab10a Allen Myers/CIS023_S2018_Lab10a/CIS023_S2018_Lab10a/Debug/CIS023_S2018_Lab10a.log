@@ -1,0 +1,11 @@
+﻿  CIS023_S2018_Lab10a.cpp
+e:\cis023\labs\cis023_s2018_lab10a allen myers\cis023_s2018_lab10a\cis023_s2018_lab10a\cis023_s2018_lab10a.cpp(163): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab10a allen myers\cis023_s2018_lab10a\cis023_s2018_lab10a\cis023_s2018_lab10a.cpp(180): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab10a allen myers\cis023_s2018_lab10a\cis023_s2018_lab10a\cis023_s2018_lab10a.cpp(197): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab10a allen myers\cis023_s2018_lab10a\cis023_s2018_lab10a\cis023_s2018_lab10a.cpp(237): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  NodeClass.cpp
+  LinkedListClass.cpp
+  CIS023_S2018_Lab10a.vcxproj -> E:\CIS023\Labs\CIS023_S2018_Lab10a Allen Myers\CIS023_S2018_Lab10a\Debug\CIS023_S2018_Lab10a.exe
+  CIS023_S2018_Lab10a.vcxproj -> E:\CIS023\Labs\CIS023_S2018_Lab10a Allen Myers\CIS023_S2018_Lab10a\Debug\CIS023_S2018_Lab10a.pdb (Full PDB)

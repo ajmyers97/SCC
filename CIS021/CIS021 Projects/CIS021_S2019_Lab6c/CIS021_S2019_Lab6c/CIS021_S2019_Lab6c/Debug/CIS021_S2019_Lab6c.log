@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  VennDiagram.cpp
+  CIS021_S2019_Lab6c.cpp
+e:\cis021 projects\cis021_s2019_lab6c\cis021_s2019_lab6c\cis021_s2019_lab6c\cis021_s2019_lab6c.cpp(253): warning C4800: 'LRESULT': forcing value to bool 'true' or 'false' (performance warning)
+  Generating Code...
+  CIS021_S2019_Lab6c.vcxproj -> E:\CIS021 Projects\CIS021_S2019_Lab6c\CIS021_S2019_Lab6c\Debug\CIS021_S2019_Lab6c.exe
+  CIS021_S2019_Lab6c.vcxproj -> E:\CIS021 Projects\CIS021_S2019_Lab6c\CIS021_S2019_Lab6c\Debug\CIS021_S2019_Lab6c.pdb (Full PDB)

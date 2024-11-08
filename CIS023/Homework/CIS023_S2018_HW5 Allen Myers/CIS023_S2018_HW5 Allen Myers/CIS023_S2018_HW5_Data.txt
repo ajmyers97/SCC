@@ -1,0 +1,9 @@
+Citroen C3 Picasso,Gasoline,Van,4
+Fiat Strada,Gasoline,Pickup,2
+Renault Twizy,Electric,Passenger,2
+Chevrolet Express,Diesel,Van,15
+Range Rover,Diesel,SUV,5
+Kia Rio,Gasoline,Passenger,4
+Doge Ram,Diesel,Pickup,5
+Ford EcoSport,Hybrid,SUV,4
+Hodda Accord,Gasoline,Passenger,4

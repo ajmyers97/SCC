@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  NodeClass.cpp
+  LinkedListClass.cpp
+  CIS023_S2018_Lab10b.cpp
+\\mac\icloud\solano community college coursework\previous terms\spring 2018\cis023\programming labs\cis023\labs\cis023_s2018_lab10b allen myers\cis023_s2018_lab10b\cis023_s2018_lab10b\cis023_s2018_lab10b.cpp(156): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+\\mac\icloud\solano community college coursework\previous terms\spring 2018\cis023\programming labs\cis023\labs\cis023_s2018_lab10b allen myers\cis023_s2018_lab10b\cis023_s2018_lab10b\cis023_s2018_lab10b.cpp(187): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+\\mac\icloud\solano community college coursework\previous terms\spring 2018\cis023\programming labs\cis023\labs\cis023_s2018_lab10b allen myers\cis023_s2018_lab10b\cis023_s2018_lab10b\cis023_s2018_lab10b.cpp(414): warning C4553: '==': operator has no effect; did you intend '='?
+  Generating Code...
+  CIS023_S2018_Lab10b.vcxproj -> \\Mac\iCloud\Solano Community College Coursework\Previous Terms\Spring 2018\CIS023\Programming Labs\CIS023\Labs\CIS023_S2018_Lab10b Allen Myers\CIS023_S2018_Lab10b\Debug\CIS023_S2018_Lab10b.exe
+  CIS023_S2018_Lab10b.vcxproj -> \\Mac\iCloud\Solano Community College Coursework\Previous Terms\Spring 2018\CIS023\Programming Labs\CIS023\Labs\CIS023_S2018_Lab10b Allen Myers\CIS023_S2018_Lab10b\Debug\CIS023_S2018_Lab10b.pdb (Full PDB)

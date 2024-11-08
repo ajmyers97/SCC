@@ -1,0 +1,12 @@
+Auto Maintenance,Soft,Non-Fiction,Reference
+Words,Hard,Non-Fiction,Reference
+Don't Drink and Derive,Hard,Non-Fiction,Textbook
+Red Wednesday,Hard,Fiction,Mystery
+My Life,Electronic,Non-Fiction,Biography
+Not From Here,Electronic,Fiction,Mystery
+Early Mathematics,Hard,Non-Fiction,Textbook
+Forever Happy,Soft,Fiction,Drama
+Backlit,Soft,Fiction,Horror
+Robert Parker,Electronic,Non-Fiction,Biography
+Vampire Supper,Hard,Fiction,Horror
+G is for Good,Soft,Fiction,Drama

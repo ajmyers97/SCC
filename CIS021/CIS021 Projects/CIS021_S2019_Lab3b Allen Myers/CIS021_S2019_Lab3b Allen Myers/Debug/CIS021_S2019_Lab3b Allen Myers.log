@@ -1,0 +1,9 @@
+﻿  CIS021_S2019_Lab3b Allen Myers.cpp
+d:\cis021 projects\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers.cpp(149): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers.cpp(185): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers.cpp(187): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\cis021 projects\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers.cpp(196): warning C4476: 'printf' : unknown type field character 'm' in format specifier
+d:\cis021 projects\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers.cpp(211): warning C4018: '<': signed/unsigned mismatch
+d:\cis021 projects\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers\cis021_s2019_lab3b allen myers.cpp(217): warning C4018: '<': signed/unsigned mismatch
+  CIS021_S2019_Lab3b Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab3b Allen Myers\Debug\CIS021_S2019_Lab3b Allen Myers.exe
+  CIS021_S2019_Lab3b Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab3b Allen Myers\Debug\CIS021_S2019_Lab3b Allen Myers.pdb (Full PDB)

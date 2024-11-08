@@ -1,0 +1,153 @@
+HWND hWnd_Input;								// input field
+HWND hWnd_LName;								// output fields
+HWND hWnd_FName;								// .
+HWND hWnd_City;									// .
+HWND hWnd_Age;									// .
+HWND hWnd_License;								// .
+HWND hWnd_btnFirst;								// buttons
+HWND hWnd_btnPrev;								// .
+HWND hWnd_btnNext;								// .
+HWND hWnd_btnLast;								// .
+
+
+
+void LoadFile();								// load file into linked list
+
+
+
+CW_USEDEFAULT, 0, 375, 300, nullptr, nullptr, hInstance, nullptr);
+
+
+
+
+case BN_CLICKED:								// capture button click
+{
+}
+break;
+
+
+
+	case WM_CREATE:
+	{
+		// grey background
+		CreateWindow(TEXT("STATIC"), TEXT(""),
+			WS_VISIBLE | WS_CHILD, 0, 0, 400, 300, hWnd, NULL, NULL, NULL);
+
+		// labels
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Last Name:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 20, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("First Name:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 50, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("City:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 80, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Age:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 110, 340, 20, hWnd, NULL, NULL, NULL);
+		CreateWindow(TEXT("STATIC"),
+			TEXT("License #:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 140, 340, 20, hWnd, NULL, NULL, NULL);
+
+		// output static controls
+		hWnd_LName = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD,
+			100, 20, 340, 20, hWnd, NULL, NULL, NULL);
+		hWnd_FName = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD,
+			100, 50, 340, 20, hWnd, NULL, NULL, NULL);
+		hWnd_City = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD,
+			100, 80, 340, 20, hWnd, NULL, NULL, NULL);
+		hWnd_Age = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD,
+			100, 110, 340, 20, hWnd, NULL, NULL, NULL);
+		hWnd_License = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD,
+			100, 140, 340, 20, hWnd, NULL, NULL, NULL);
+
+		// create button
+		hWnd_btnFirst = CreateWindow(TEXT("BUTTON"),
+			TEXT("<<"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			10, 180, 70, 30, hWnd, NULL, NULL, NULL);
+
+		hWnd_btnPrev = CreateWindow(TEXT("BUTTON"),
+			TEXT("<"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			100, 180, 70, 30, hWnd, NULL, NULL, NULL);
+
+		hWnd_btnNext = CreateWindow(TEXT("BUTTON"),
+			TEXT(">"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			190, 180, 70, 30, hWnd, NULL, NULL, NULL);
+
+		hWnd_btnLast = CreateWindow(TEXT("BUTTON"),
+			TEXT(">>"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			280, 180, 70, 30, hWnd, NULL, NULL, NULL);
+
+		// load file into linked list
+		LoadFile();
+	}
+	break;
+
+
+
+
+
+void LoadFile()
+{
+	string strLName = "";								// temps to hold file data
+	string strFName = "";
+	string strCity = "";
+	string strAge = "";
+	string strLic = "";
+
+	ifstream fInput;									// file pointer
+
+	try
+	{
+		fInput.open("CIS023_S2018_Lab8_Data.txt");		// open file
+
+		if (!fInput)
+			throw 1;
+
+		while (fInput.good())
+		{
+
+			fInput >> strLName							// Read the file
+				>> strFName
+				>> strCity
+				>> strAge
+				>> strLic;
+
+		}
+
+		fInput.close();									// ALWAYS remember to close the file
+
+		EnableWindow(hWnd_btnNext, true);
+	}
+	catch (int)
+	{
+		MessageBox(NULL,
+			TEXT("Failed to load file"),
+			TEXT("File Error"),
+			MB_ICONERROR);
+
+		EnableWindow(hWnd_btnNext, false);
+
+	}
+}
+

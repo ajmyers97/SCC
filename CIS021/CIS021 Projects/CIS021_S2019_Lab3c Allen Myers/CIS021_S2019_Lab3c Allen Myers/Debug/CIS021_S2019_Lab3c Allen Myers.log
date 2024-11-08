@@ -1,0 +1,7 @@
+﻿  ClassicalCryptography.cpp
+d:\cis021 projects\cis021_s2019_lab3c allen myers\cis021_s2019_lab3c allen myers\classicalcryptography.cpp(22): warning C4018: '<': signed/unsigned mismatch
+d:\cis021 projects\cis021_s2019_lab3c allen myers\cis021_s2019_lab3c allen myers\classicalcryptography.cpp(40): warning C4018: '<': signed/unsigned mismatch
+d:\cis021 projects\cis021_s2019_lab3c allen myers\cis021_s2019_lab3c allen myers\classicalcryptography.cpp(53): warning C4018: '<': signed/unsigned mismatch
+d:\cis021 projects\cis021_s2019_lab3c allen myers\cis021_s2019_lab3c allen myers\classicalcryptography.cpp(95): warning C4018: '<': signed/unsigned mismatch
+  CIS021_S2019_Lab3c Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab3c Allen Myers\Debug\CIS021_S2019_Lab3c Allen Myers.exe
+  CIS021_S2019_Lab3c Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab3c Allen Myers\Debug\CIS021_S2019_Lab3c Allen Myers.pdb (Full PDB)

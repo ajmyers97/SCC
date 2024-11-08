@@ -1,0 +1,5 @@
+﻿  CIS023_S2018_Lab1 Allen Myers.cpp
+c:\users\cis\desktop\cis023_s2018_lab1 allen myers\cis023_s2018_lab1 allen myers\cis023_s2018_lab1 allen myers.cpp(169): warning C4002: too many actual parameters for macro 'CreateWindowW'
+c:\users\cis\desktop\cis023_s2018_lab1 allen myers\cis023_s2018_lab1 allen myers\cis023_s2018_lab1 allen myers.cpp(175): warning C4002: too many actual parameters for macro 'CreateWindowW'
+  CIS023_S2018_Lab1 Allen Myers.vcxproj -> C:\Users\CIS\Desktop\CIS023_S2018_Lab1 Allen Myers\Debug\CIS023_S2018_Lab1 Allen Myers.exe
+  CIS023_S2018_Lab1 Allen Myers.vcxproj -> C:\Users\CIS\Desktop\CIS023_S2018_Lab1 Allen Myers\Debug\CIS023_S2018_Lab1 Allen Myers.pdb (Full PDB)

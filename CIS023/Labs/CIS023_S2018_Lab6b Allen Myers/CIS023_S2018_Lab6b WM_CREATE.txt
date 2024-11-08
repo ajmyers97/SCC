@@ -1,0 +1,86 @@
+HWND hWnd_Input_1;								// 1st input
+HWND hWnd_Input_2;								// 2nd input
+HWND hWnd_cboSelection;							// combo box
+HWND hWnd_Output;								// output label
+
+
+
+   HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
+	CW_USEDEFAULT, 0, 300, 250, nullptr, nullptr, hInstance, nullptr);
+
+
+
+	case WM_CREATE:
+	{
+
+		// grey background
+		CreateWindow(TEXT("STATIC"), TEXT(""),
+			WS_VISIBLE | WS_CHILD, 0, 0, 300, 200, hWnd, NULL, NULL, NULL);
+
+		// create prompts
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Enter a Digit"),
+			WS_VISIBLE | WS_CHILD,
+			10, 10, 70, 40, hWnd, NULL, NULL, NULL);
+
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Select Operation"),
+			WS_VISIBLE | WS_CHILD,
+			100, 10, 75, 40, hWnd, NULL, NULL, NULL);
+
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Enter a Digit"),
+			WS_VISIBLE | WS_CHILD,
+			200, 10, 70, 40, hWnd, NULL, NULL, NULL);
+
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Result:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 140, 50, 20, hWnd, NULL, NULL, NULL);
+
+		// create edit control for user input
+		hWnd_Input_1 = CreateWindow(TEXT("EDIT"),
+			NULL,
+			WS_CHILD | WS_VISIBLE | WS_BORDER | ES_AUTOHSCROLL,
+			10, 50, 60, 20, hWnd, NULL, NULL, NULL);
+
+		// create edit control for user input
+		hWnd_Input_2 = CreateWindow(TEXT("EDIT"),
+			NULL,
+			WS_CHILD | WS_VISIBLE | WS_BORDER | ES_AUTOHSCROLL,
+			200, 50, 60, 20, hWnd, NULL, NULL, NULL);
+
+		// create combo box
+		hWnd_cboSelection = CreateWindow(
+			TEXT("COMBOBOX"),								// type of object
+			TEXT(""),										// default empty edit box
+			CBS_DROPDOWN | CBS_HASSTRINGS |					// act like a typical combo box
+															//	CBS_SORT |										// items are soted in the listbox
+			WS_CHILD | WS_OVERLAPPED | WS_VISIBLE | 		// attributesached to the main window
+			WS_VSCROLL,										// scroll bar in list
+			100, 50, 75, 200,								// location and size
+			hWnd, NULL, NULL, NULL);						// parent window, the rest are not used here
+
+															// create output lines
+		hWnd_Output = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD | WS_BORDER,
+			70, 140, 100, 20, hWnd, NULL, NULL, NULL);
+
+
+		TCHAR Operations[6][4] =				// array of items that will be loaded into combo box
+		{
+			TEXT("+"),
+			TEXT("-"),
+			TEXT("*"),
+			TEXT("/"),
+			TEXT("++"),
+			TEXT("- -"),
+		};
+		// load the array into the combo box
+		for (int i = 0; i < 6; i++)
+			SendMessage(hWnd_cboSelection, CB_ADDSTRING, NULL, (LPARAM)Operations[i]);
+
+
+	}
+	break;

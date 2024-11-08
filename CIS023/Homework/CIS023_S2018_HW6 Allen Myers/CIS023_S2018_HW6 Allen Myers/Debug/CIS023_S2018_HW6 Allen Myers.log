@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  ZeroException.cpp
+  HexClass.cpp
+  CIS023_S2018_HW6 Allen Myers.cpp
+f:\cis023\homework\cis023_s2018_hw6 allen myers\cis023_s2018_hw6 allen myers\cis023_s2018_hw6 allen myers.cpp(145): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+  Generating Code...
+  LINK : F:\CIS023\Homework\CIS023_S2018_HW6 Allen Myers\Debug\CIS023_S2018_HW6 Allen Myers.exe not found or not built by the last incremental link; performing full link
+  CIS023_S2018_HW6 Allen Myers.vcxproj -> F:\CIS023\Homework\CIS023_S2018_HW6 Allen Myers\Debug\CIS023_S2018_HW6 Allen Myers.exe
+  CIS023_S2018_HW6 Allen Myers.vcxproj -> F:\CIS023\Homework\CIS023_S2018_HW6 Allen Myers\Debug\CIS023_S2018_HW6 Allen Myers.pdb (Full PDB)

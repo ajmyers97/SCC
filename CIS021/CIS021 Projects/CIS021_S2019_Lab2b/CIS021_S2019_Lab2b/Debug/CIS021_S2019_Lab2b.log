@@ -1,0 +1,11 @@
+﻿  BooleanClass.cpp
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(66): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(67): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(67): warning C4800: 'UINT': forcing value to bool 'true' or 'false' (performance warning)
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(70): warning C4554: '^': check operator precedence for possible error; use parentheses to clarify precedence
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(70): warning C4800: 'UINT': forcing value to bool 'true' or 'false' (performance warning)
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(91): warning C4244: 'argument': conversion from 'TCHAR' to 'char', possible loss of data
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(111): warning C4244: '+=': conversion from 'double' to 'UINT', possible loss of data
+e:\cis 21\cis021_s2019_lab2b\cis021_s2019_lab2b\cis021_s2019_lab2b\booleanclass.cpp(118): warning C4244: 'argument': conversion from 'TCHAR' to 'char', possible loss of data
+  CIS021_S2019_Lab2b.vcxproj -> E:\CIS 21\CIS021_S2019_Lab2b\CIS021_S2019_Lab2b\Debug\CIS021_S2019_Lab2b.exe
+  CIS021_S2019_Lab2b.vcxproj -> E:\CIS 21\CIS021_S2019_Lab2b\CIS021_S2019_Lab2b\Debug\CIS021_S2019_Lab2b.pdb (Full PDB)

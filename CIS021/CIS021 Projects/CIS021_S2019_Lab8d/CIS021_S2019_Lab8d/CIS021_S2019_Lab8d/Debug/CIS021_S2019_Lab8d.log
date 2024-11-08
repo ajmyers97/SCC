@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  LeafClass.cpp
+  CIS021_S2019_Lab8d.cpp
+d:\cis021 projects\cis021_s2019_lab8d\cis021_s2019_lab8d\cis021_s2019_lab8d\cis021_s2019_lab8d.cpp(316): warning C4018: '<': signed/unsigned mismatch
+  bTreeClass.cpp
+d:\cis021 projects\cis021_s2019_lab8d\cis021_s2019_lab8d\cis021_s2019_lab8d\btreeclass.cpp(114): warning C4018: '<': signed/unsigned mismatch
+d:\cis021 projects\cis021_s2019_lab8d\cis021_s2019_lab8d\cis021_s2019_lab8d\btreeclass.cpp(122): warning C4018: '<': signed/unsigned mismatch
+d:\cis021 projects\cis021_s2019_lab8d\cis021_s2019_lab8d\cis021_s2019_lab8d\btreeclass.cpp(155): warning C4018: '<': signed/unsigned mismatch
+d:\cis021 projects\cis021_s2019_lab8d\cis021_s2019_lab8d\cis021_s2019_lab8d\btreeclass.cpp(157): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
+  CIS021_S2019_Lab8d.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab8d\CIS021_S2019_Lab8d\Debug\CIS021_S2019_Lab8d.exe
+  CIS021_S2019_Lab8d.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab8d\CIS021_S2019_Lab8d\Debug\CIS021_S2019_Lab8d.pdb (Full PDB)

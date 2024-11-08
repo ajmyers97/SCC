@@ -1,0 +1,70 @@
+HWND hWnd_Input_1;								// hex input
+HWND hWnd_Input_2;								// integer input
+HWND hWnd_Output_1;								// integer ouptut
+HWND hWnd_Output_2;								// hex output
+HWND hWnd_btnIntoCm;							// convert button
+HWND hWnd_btnCmtoIn;							// other convert button
+
+
+
+
+
+   HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
+	   CW_USEDEFAULT, 0, 500, 150, nullptr, nullptr, hInstance, nullptr);
+
+
+
+	case WM_CREATE:
+	{
+
+		// grey background
+		CreateWindow(TEXT("STATIC"), TEXT(""),
+			WS_VISIBLE | WS_CHILD, 0, 0, 500, 100, hWnd, NULL, NULL, NULL);
+
+		// create prompts
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Enter Inches:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 15, 150, 20, hWnd, NULL, NULL, NULL);
+
+		CreateWindow(TEXT("STATIC"),
+			TEXT("Enter Centimeters:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 55, 150, 20, hWnd, NULL, NULL, NULL);
+
+		// create edit controls for user input
+		hWnd_Input_1 = CreateWindow(TEXT("EDIT"),
+			NULL,
+			WS_CHILD | WS_VISIBLE | WS_BORDER | ES_AUTOHSCROLL,
+			160, 15, 60, 20, hWnd, NULL, NULL, NULL);
+
+		// create edit control for user input
+		hWnd_Input_2 = CreateWindow(TEXT("EDIT"),
+			NULL,
+			WS_CHILD | WS_VISIBLE | WS_BORDER | ES_AUTOHSCROLL,
+			160, 55, 60, 20, hWnd, NULL, NULL, NULL);
+
+		// create output lines
+		hWnd_Output_1 = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD | WS_BORDER,
+			375, 15, 100, 20, hWnd, NULL, NULL, NULL);
+
+		hWnd_Output_2 = CreateWindow(TEXT("STATIC"),
+			TEXT(""),
+			WS_VISIBLE | WS_CHILD | WS_BORDER,
+			375, 55, 100, 20, hWnd, NULL, NULL, NULL);
+
+		// create Show button
+		hWnd_btnIntoCm = CreateWindow(TEXT("BUTTON"),
+			TEXT("Convert"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			250, 10, 90, 30, hWnd, NULL, NULL, NULL);
+
+		hWnd_btnCmtoIn = CreateWindow(TEXT("BUTTON"),
+			TEXT("Convert"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			250, 50, 90, 30, hWnd, NULL, NULL, NULL);
+
+	}
+	break;

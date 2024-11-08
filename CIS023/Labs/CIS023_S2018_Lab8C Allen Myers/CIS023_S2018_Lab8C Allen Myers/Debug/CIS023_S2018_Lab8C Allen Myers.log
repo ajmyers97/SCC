@@ -1,0 +1,10 @@
+﻿  CIS023_S2018_Lab8C Allen Myers.cpp
+e:\cis023\labs\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers.cpp(173): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers.cpp(175): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers.cpp(177): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers.cpp(179): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers.cpp(181): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers.cpp(183): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+e:\cis023\labs\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers\cis023_s2018_lab8c allen myers.cpp(185): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+  CIS023_S2018_Lab8C Allen Myers.vcxproj -> E:\CIS023\Labs\CIS023_S2018_Lab8C Allen Myers\Debug\CIS023_S2018_Lab8C Allen Myers.exe
+  CIS023_S2018_Lab8C Allen Myers.vcxproj -> E:\CIS023\Labs\CIS023_S2018_Lab8C Allen Myers\Debug\CIS023_S2018_Lab8C Allen Myers.pdb (Full PDB)

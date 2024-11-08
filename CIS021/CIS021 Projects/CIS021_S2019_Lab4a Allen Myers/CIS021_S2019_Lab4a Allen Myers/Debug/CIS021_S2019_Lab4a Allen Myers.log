@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  SquareRoot.cpp
+d:\cis021 projects\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers\squareroot.cpp(92): warning C4101: 'iRemainder': unreferenced local variable
+d:\cis021 projects\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers\squareroot.cpp(91): warning C4101: 'iPairRoot': unreferenced local variable
+d:\cis021 projects\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers\squareroot.cpp(142): warning C4018: '<': signed/unsigned mismatch
+  CIS021_S2019_Lab4a Allen Myers.cpp
+d:\cis021 projects\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers.cpp(62): warning C4473: 'printf' : not enough arguments passed for format string
+  d:\cis021 projects\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers.cpp(62): note: placeholders and their parameters expect 3 variadic arguments, but 2 were provided
+  d:\cis021 projects\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers\cis021_s2019_lab4a allen myers.cpp(62): note: the missing variadic argument 3 is required by format string '%d'
+  Generating Code...
+  CIS021_S2019_Lab4a Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab4a Allen Myers\Debug\CIS021_S2019_Lab4a Allen Myers.exe
+  CIS021_S2019_Lab4a Allen Myers.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab4a Allen Myers\Debug\CIS021_S2019_Lab4a Allen Myers.pdb (Full PDB)

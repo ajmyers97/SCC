@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  CIS023_S2018_Final_Review.cpp
+f:\cis023\labs\cis023_s2018_final_review allen myers\cis023_s2018_final_review\cis023_s2018_final_review\cis023_s2018_final_review.cpp(153): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+f:\cis023\labs\cis023_s2018_final_review allen myers\cis023_s2018_final_review\cis023_s2018_final_review\cis023_s2018_final_review.cpp(159): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+f:\cis023\labs\cis023_s2018_final_review allen myers\cis023_s2018_final_review\cis023_s2018_final_review\cis023_s2018_final_review.cpp(169): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+f:\cis023\labs\cis023_s2018_final_review allen myers\cis023_s2018_final_review\cis023_s2018_final_review\cis023_s2018_final_review.cpp(174): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+f:\cis023\labs\cis023_s2018_final_review allen myers\cis023_s2018_final_review\cis023_s2018_final_review\cis023_s2018_final_review.cpp(179): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+f:\cis023\labs\cis023_s2018_final_review allen myers\cis023_s2018_final_review\cis023_s2018_final_review\cis023_s2018_final_review.cpp(185): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+  CIS023_S2018_Final_Review.vcxproj -> F:\CIS023\Labs\CIS023_S2018_Final_Review Allen Myers\CIS023_S2018_Final_Review\Debug\CIS023_S2018_Final_Review.exe
+  CIS023_S2018_Final_Review.vcxproj -> F:\CIS023\Labs\CIS023_S2018_Final_Review Allen Myers\CIS023_S2018_Final_Review\Debug\CIS023_S2018_Final_Review.pdb (Full PDB)

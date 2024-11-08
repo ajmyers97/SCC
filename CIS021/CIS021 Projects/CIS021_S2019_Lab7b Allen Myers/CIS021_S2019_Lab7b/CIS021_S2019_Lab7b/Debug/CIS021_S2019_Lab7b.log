@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  NodeClass.cpp
+  CIS021_S2019_Lab7b.cpp
+d:\cis021 projects\cis021_s2019_lab7b allen myers\cis021_s2019_lab7b\cis021_s2019_lab7b\cis021_s2019_lab7b.cpp(161): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+d:\cis021 projects\cis021_s2019_lab7b allen myers\cis021_s2019_lab7b\cis021_s2019_lab7b\cis021_s2019_lab7b.cpp(181): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+d:\cis021 projects\cis021_s2019_lab7b allen myers\cis021_s2019_lab7b\cis021_s2019_lab7b\cis021_s2019_lab7b.cpp(196): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+d:\cis021 projects\cis021_s2019_lab7b allen myers\cis021_s2019_lab7b\cis021_s2019_lab7b\cis021_s2019_lab7b.cpp(208): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+  Generating Code...
+  CIS021_S2019_Lab7b.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab7b Allen Myers\CIS021_S2019_Lab7b\Debug\CIS021_S2019_Lab7b.exe
+  CIS021_S2019_Lab7b.vcxproj -> D:\CIS021 Projects\CIS021_S2019_Lab7b Allen Myers\CIS021_S2019_Lab7b\Debug\CIS021_S2019_Lab7b.pdb (Full PDB)

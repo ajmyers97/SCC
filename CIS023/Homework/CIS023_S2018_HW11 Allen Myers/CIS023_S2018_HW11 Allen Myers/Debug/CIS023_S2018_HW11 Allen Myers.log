@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  bTreeClass.cpp
+  NodeClass.cpp
+  CIS023_S2018_HW11 Allen Myers.cpp
+f:\cis023\homework\cis023_s2018_hw11 allen myers\cis023_s2018_hw11 allen myers\cis023_s2018_hw11 allen myers.cpp(155): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+  Generating Code...
+  CIS023_S2018_HW11 Allen Myers.vcxproj -> F:\CIS023\Homework\CIS023_S2018_HW11 Allen Myers\Debug\CIS023_S2018_HW11 Allen Myers.exe
+  CIS023_S2018_HW11 Allen Myers.vcxproj -> F:\CIS023\Homework\CIS023_S2018_HW11 Allen Myers\Debug\CIS023_S2018_HW11 Allen Myers.pdb (Full PDB)

@@ -1,0 +1,101 @@
+
+		// grey background
+		CreateWindow(TEXT("STATIC"), TEXT(""),
+			WS_VISIBLE | WS_CHILD,
+			0, 0, 330, 300,
+			hWnd, NULL, NULL, NULL);
+
+		// labels
+		CreateWindow(
+			TEXT("STATIC"),
+			TEXT("ID Number:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 10, 90, 20, hWnd, NULL, NULL, NULL);
+
+		CreateWindow(
+			TEXT("STATIC"),
+			TEXT("Name:"),
+			WS_VISIBLE | WS_CHILD,
+			10, 50, 90, 20, hWnd, NULL, NULL, NULL);
+
+		CreateWindow(
+			TEXT("STATIC"),
+			TEXT("Class"),
+			WS_VISIBLE | WS_CHILD,
+			10, 90, 90, 20, hWnd, NULL, NULL, NULL);
+
+		CreateWindow(
+			TEXT("STATIC"),
+			TEXT("Grade"),
+			WS_VISIBLE | WS_CHILD,
+			200, 90, 90, 20, hWnd, NULL, NULL, NULL);
+
+		// data
+		hWnd_ID = CreateWindow(
+			TEXT("STATIC"),
+			TEXT("888888888"),
+			WS_VISIBLE | WS_CHILD,
+			100, 10, 90, 20, hWnd, NULL, NULL, NULL);
+
+		hWnd_First = CreateWindow(
+			TEXT("STATIC"),
+			TEXT("BabyPuppy"),
+			WS_VISIBLE | WS_CHILD,
+			100, 50, 90, 20, hWnd, NULL, NULL, NULL);
+
+		hWnd_Last = CreateWindow(
+			TEXT("STATIC"),
+			TEXT("Monkey"),
+			WS_VISIBLE | WS_CHILD,
+			200, 50, 90, 20, hWnd, NULL, NULL, NULL);
+
+		hWnd_Class[0] = CreateWindow(
+			TEXT("STATIC"),
+			TEXT("CIS 001"),
+			WS_VISIBLE | WS_CHILD,
+			10, 120, 90, 20, hWnd, NULL, NULL, NULL);
+
+		hWnd_Grade[0] = CreateWindow(
+			TEXT("STATIC"),
+			TEXT("A"),
+			WS_VISIBLE | WS_CHILD,
+			200, 120, 90, 20, hWnd, NULL, NULL, NULL);
+
+		hWnd_Class[1] = CreateWindow(
+			TEXT("STATIC"),
+			TEXT("CIS 023"),
+			WS_VISIBLE | WS_CHILD,
+			10, 150, 90, 20, hWnd, NULL, NULL, NULL);
+
+		hWnd_Grade[1] = CreateWindow(
+			TEXT("STATIC"),
+			TEXT("A"),
+			WS_VISIBLE | WS_CHILD,
+			200, 150, 90, 20, hWnd, NULL, NULL, NULL);
+
+
+		// buttons
+		hWnd_Load = CreateWindow(
+			TEXT("BUTTON"),
+			TEXT("Load"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			120, 200, 90, 30, hWnd, NULL, NULL, NULL);
+
+		hWnd_Base = CreateWindow(
+			TEXT("BUTTON"),
+			TEXT("Base"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			20, 250, 90, 30, hWnd, NULL, NULL, NULL);
+
+		hWnd_Name = CreateWindow(
+			TEXT("BUTTON"),
+			TEXT("Name"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			120, 250, 90, 30, hWnd, NULL, NULL, NULL);
+
+		hWnd_Grades = CreateWindow(
+			TEXT("BUTTON"),
+			TEXT("Grades"),
+			WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+			220, 250, 90, 30, hWnd, NULL, NULL, NULL);
+

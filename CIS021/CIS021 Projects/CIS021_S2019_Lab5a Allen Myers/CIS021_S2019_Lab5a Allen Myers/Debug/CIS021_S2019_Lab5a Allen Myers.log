@@ -1,0 +1,14 @@
+﻿  CIS021_S2019_Lab5a Allen Myers.cpp
+e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(26): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(26): note: consider using '%lld' in the format string
+  e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(26): note: consider using '%I64d' in the format string
+e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(30): warning C4477: 'printf' : format string '%03d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(30): note: consider using '%lld' in the format string
+  e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(30): note: consider using '%I64d' in the format string
+e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(78): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(80): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(128): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\cis021 projects\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers\cis021_s2019_lab5a allen myers.cpp(141): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+  CIS021_S2019_Lab5a Allen Myers.vcxproj -> E:\CIS021 Projects\CIS021_S2019_Lab5a Allen Myers\Debug\CIS021_S2019_Lab5a Allen Myers.exe
+  CIS021_S2019_Lab5a Allen Myers.vcxproj -> E:\CIS021 Projects\CIS021_S2019_Lab5a Allen Myers\Debug\CIS021_S2019_Lab5a Allen Myers.pdb (Full PDB)
